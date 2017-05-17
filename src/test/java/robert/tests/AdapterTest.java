@@ -1,4 +1,4 @@
-package robert.adapter;
+package robert.tests;
 
 import org.junit.Test;
 

@@ -10,10 +10,12 @@ public class Adaptor implements AdapteeA, AdapteeB {
         exampleMethodB();
     }
 
+    @Override
     public void exampleMethodA() {
         System.out.println("method A");
     }
 
+    @Override
     public void exampleMethodB() {
         System.out.println("method B");
     }

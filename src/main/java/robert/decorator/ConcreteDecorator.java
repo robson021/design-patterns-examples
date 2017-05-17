@@ -6,6 +6,7 @@ public class ConcreteDecorator extends AbstractDecorator {
 		super(component);
 	}
 
+	@Override
 	public void componentAction() {
 		super.decoratedComponent.componentAction();
 		System.out.println("decorator action");

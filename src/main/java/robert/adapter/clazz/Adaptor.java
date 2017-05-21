@@ -6,6 +6,7 @@ import robert.adapter.clazz.iface.AdapteeB;
 public class Adaptor implements AdapteeA, AdapteeB {
 
     public void doSomething() {
+        System.out.println("Adaptor is working now...");
         exampleMethodA();
         exampleMethodB();
     }

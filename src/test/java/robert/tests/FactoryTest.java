@@ -7,11 +7,11 @@ import robert.factory.shapes.ShapeFactory;
 
 public class FactoryTest {
 
-	@Test
-	public void factoryTest() {
-		for (ShapeType shapeType : ShapeType.values()) {
-			Shape shape = ShapeFactory.getShape(shapeType);
-			shape.draw();
-		}
-	}
+    @Test
+    public void factoryTest() {
+        for (ShapeType shapeType : ShapeType.values()) {
+            Shape shape = ShapeFactory.getShape(shapeType);
+            shape.draw();
+        }
+    }
 }

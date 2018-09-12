@@ -1,5 +1,5 @@
 package robert.strategy;
 
 public interface Strategy {
-	int doMath(int x, int y);
+    int doMath(int x, int y);
 }

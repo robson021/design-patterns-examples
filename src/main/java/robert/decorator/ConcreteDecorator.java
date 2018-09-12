@@ -2,13 +2,14 @@ package robert.decorator;
 
 public class ConcreteDecorator extends AbstractDecorator {
 
-	public ConcreteDecorator(Component component) {
-		super(component);
-	}
+    public ConcreteDecorator(Component component) {
+        super(component);
+    }
 
-	@Override
-	public void componentAction() {
-		super.decoratedComponent.componentAction();
-		System.out.println("decorator action");
-	}
+    @Override
+    public void componentAction() {
+        System.out.println("decorator before action");
+        super.decoratedComponent.componentAction();
+        System.out.println("decorator after action");
+    }
 }

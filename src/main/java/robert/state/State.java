@@ -1,5 +1,5 @@
 package robert.state;
 
 public interface State {
-	void goAction(Context context);
+    void goAction(Context context);
 }

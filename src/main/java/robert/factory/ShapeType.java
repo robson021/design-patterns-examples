@@ -1,8 +1,8 @@
 package robert.factory;
 
 public enum ShapeType {
-	CIRCLE,
-	SQUARE,
-	RECTANGLE,
-	TRIANGLE
+    CIRCLE,
+    SQUARE,
+    RECTANGLE,
+    TRIANGLE
 }

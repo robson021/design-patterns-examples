@@ -12,9 +12,9 @@ public class LazyInitSingleton {
     }
 
     public static LazyInitSingleton getInstance() {
-        if ( singleton == null ) {
+        if (singleton == null) {
             synchronized (LazyInitSingleton.class) {
-                if ( singleton == null ) {
+                if (singleton == null) {
                     singleton = new LazyInitSingleton();
                 }
             }

@@ -5,7 +5,7 @@ import java.util.Set;
 
 public class Drawing implements Shape {
 
-    private Set<Shape> shapes = new HashSet<>();
+    private final Set<Shape> shapes = new HashSet<>();
 
     void addShape(Shape shape) {
         shapes.add(shape);

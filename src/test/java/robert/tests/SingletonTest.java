@@ -1,7 +1,6 @@
 package robert.tests;
 
 import org.junit.Test;
-
 import robert.singleton.LazyInitSingleton;
 import robert.singleton.Singleton;
 

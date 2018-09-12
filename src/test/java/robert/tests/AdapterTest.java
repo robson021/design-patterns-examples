@@ -1,7 +1,6 @@
 package robert.tests;
 
 import org.junit.Test;
-
 import robert.adapter.object.Adaptee;
 import robert.adapter.object.Adaptor;
 

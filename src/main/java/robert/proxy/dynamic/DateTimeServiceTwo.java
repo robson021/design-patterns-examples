@@ -2,10 +2,10 @@ package robert.proxy.dynamic;
 
 import java.time.LocalDateTime;
 
-public class DateTimeServiceImpl implements DateTimeService {
+public class DateTimeServiceTwo implements DateTimeService {
 
     @Override
     public LocalDateTime getCurrentDateAndTime() {
-        return LocalDateTime.now();
+        return LocalDateTime.now().plusHours(1).plusMinutes(30);
     }
 }
